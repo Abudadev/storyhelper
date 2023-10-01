@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(37, 37, 235, 0.87);
+    font-family: tahoma;
+}
+
+#pws{
+    background-color: rgb(147, 147, 233);
+    text-align: center;
+    border-radius: 5px;
+    height: 75px;
+}
+
+#textarea{
+    width: 1275px;
+    height: 200px;
+    font-size: larger;
+}
+
+#ws{
+    background-color: rgb(147, 147, 233);
+    text-align: center;
+    border-radius: 5px;
+    height: 375px;
+}
+
+#yws{
+    background-color: rgb(147, 147, 233);
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 5px;
+    height: 75px;
+}

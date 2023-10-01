@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Story Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="save();">
+    <section id="pws">
+    <h2>pre-written-stories</h2>
+    <span><button id="horror" onclick="horror();">horror</button> <button id="magical" onclick="magical();">magical</button> <button id="happy" onclick="happy();">happy</button> <button id="interesting" onclick="inter();">interesting</button></span>
+    </section>
+    <br>
+    <br>
+    <section id="ws">
+    <h2>Write your own story!</h2>
+    <textarea name="" id="textarea" cols="30" rows="14" placeholder="Begin your skills of story writing here"></textarea>
+    <button onclick="save();">Save your story!</button>
+    <p>you will be able to copy your story in localstorage</p>
+    <p>how to go to localstorage: 1.right click on screen then click on inspect. 2. click on the two arrows at the top right corner. 3. click on application. 4. click on localstorage</p>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
